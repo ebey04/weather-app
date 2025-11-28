@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#headline{
+    text-align: center;
+    font-size:  3rem;
+    margin: 1rem;
+    letter-spacing: .25rem;
+}
+
+#headline::before{
+    content: "🌩️";
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+#input{
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+
+#weatherBtn{
+    border-radius: 6px;
+    padding: .75rem;
+    font-weight: 600;
+    letter-spacing: .15rem;
+}

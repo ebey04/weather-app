@@ -11,4 +11,13 @@ export default defineConfig([
     extends: ["js/recommended", prettierRecommended, prettierConfig],
     languageOptions: { globals: globals.browser, sourceType: "module" },
   },
+  {
+    files: ["webpack.config.js"],
+    languageOptions: {
+      sourceType: "commonjs",
+      globals: {
+        node: true,
+      },
+    },
+  },
 ]);
