@@ -39,3 +39,13 @@ export const iconMap = {
     "thunder-showers-day": dayThunderIcon,
     "thunder-showers-night": nightThunderIcon,
 };
+
+const spinner = document.getElementById("spinner");
+
+export function showSpinner() {
+    spinner.style.display = "block";
+}
+
+export function hideSpinner() {
+    spinner.style.display = "none";
+}
