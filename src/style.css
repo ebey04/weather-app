@@ -32,6 +32,11 @@
     border: 1px solid grey;
 }
 
+input::placeholder {
+    padding: .5rem;
+    font-style: italic;
+}
+
 #weatherBtn{
     border-radius: 6px;
     padding: .75rem;
