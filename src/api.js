@@ -7,6 +7,7 @@ export async function getWeather(location) {
         location: data.address,
         date: data.days[0].datetime,
         forecast: data.currentConditions.conditions,
-        temp: data.currentConditions.temp
+        temp: data.currentConditions.temp,
+        icon: data.currentConditions.icon
     };
 }

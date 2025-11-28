@@ -1,5 +1,6 @@
 import "./style.css";
 import { getWeather } from "./api.js";
+import { iconMap } from "./dom.js";
 
 const container = document.getElementById('container');
 const input = document.getElementById('input');
@@ -28,8 +29,12 @@ button.addEventListener("click", async () => {
     temp.classList.add('temp');
     temp.textContent = `${data.temp}°F`;
 
+    const icon = document.createElement('img');
+    icon.src = iconMap[data.icon]
+
     container.appendChild(address);
     container.appendChild(date);
     container.appendChild(forecast);
     container.appendChild(temp);
+    container.appendChild(icon);
 });
