@@ -13,3 +13,29 @@ import hailIcon from "./icons/wi-hail.svg";
 import stormShowersIcon from "./icons/wi-storm-showers.svg";
 import dayThunderIcon from "./icons/wi-day-thunderstorm.svg";
 import nightThunderIcon from "./icons/wi-night-alt-thunderstorm.svg";
+
+export const iconMap = {
+    "clear-day": clearDayIcon,
+    "clear-night": clearNightIcon,
+
+    "partly-cloudy-day": partlyCloudyDayIcon,
+    "partly-cloudy-night": partlyCloudyNightIcon,
+
+    "cloudy": cloudyIcon,
+    "fog": fogIcon,
+    "wind": windIcon,
+
+    "rain": rainIcon,
+    "rain-snow": rainMixIcon,
+    "rain-sleet": rainMixIcon,   // closest match available
+
+    "snow": snowIcon,
+    "snow-sleet": sleetIcon,     // you can decide sleet or snow icon
+
+    "sleet": sleetIcon,
+    "hail": hailIcon,
+
+    "thunder-rain": stormShowersIcon,
+    "thunder-showers-day": dayThunderIcon,
+    "thunder-showers-night": nightThunderIcon,
+};
