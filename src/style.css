@@ -22,7 +22,7 @@
     border: 2px solid lightgrey;
     padding: 1rem;
     margin: 1rem;
-    gap: .5rem;
+    gap: 1rem;
 }
 
 #search{
@@ -47,4 +47,13 @@ input::placeholder {
     padding: .75rem;
     font-weight: 600;
     letter-spacing: .15rem;
+}
+
+.temp{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.25rem;
 }
