@@ -4,7 +4,7 @@ A clean, modern weather application built for **The Odin Project**.
 It fetches real-time weather data from the **Visual Crossing API**, displays beautiful matching **SVG weather icons**, and includes a smooth loading spinner for a polished user experience.
 
 ## 🔗 Live Demo
-
+https://ebey04.github.io/weather-app/ 
 
 ## 🚀 Features
 
